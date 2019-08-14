@@ -176,6 +176,7 @@ body {
   max-width: 65ch;
   font-size: 1rem;
   margin-left: 1%;
+  text-indent: 1vw;
   padding: 2%;
 }
 .container .intro {
