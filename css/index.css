@@ -135,3 +135,16 @@ body {
   height: 100%;
 }
 /* General Style */
+.container {
+  width: 80%;
+  margin: auto;
+}
+.header-portrait {
+  height: 30vh;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 2rem;
+}
