@@ -197,7 +197,7 @@ body {
 .container table .table-header {
   background-color: yellow;
 }
-footer {
+.container footer {
   display: block;
   text-align: center;
 }
