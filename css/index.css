@@ -1,1 +1,203 @@
-/* Compile your LESS file! */
+/* @ Dynamic Variables for LESS */
+/* Mixins */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  height: 100%;
+  font-size: 1.2rem;
+  background: linear-gradient(to bottom, white 0%, orange 100%);
+  background-attachment: fixed;
+}
+/* Container Styles */
+.container {
+  width: 60%;
+  margin: auto;
+  padding: 2%;
+}
+.container a {
+  color: white;
+}
+.container .navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: orange;
+}
+.container .navbar a {
+  vertical-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-right: 2%;
+  color: yellow;
+}
+.container h1,
+.container h2,
+.container h3 {
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 1.6rem;
+}
+.container div {
+  padding: 2%;
+}
+.container p {
+  max-width: 65ch;
+  font-size: 1rem;
+  margin-left: 1%;
+  text-indent: 1vw;
+  padding: 2%;
+}
+.container .intro {
+  padding: 2%;
+  background-color: lightyellow;
+}
+.container .intro .header-portrait {
+  height: 30vh;
+}
+.container .skills ul {
+  list-style: disc inside none;
+}
+.container table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid black;
+}
+.container table .table-header {
+  background-color: yellow;
+}
+.container footer {
+  display: block;
+  text-align: center;
+}

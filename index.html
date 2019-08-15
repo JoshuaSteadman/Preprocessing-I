@@ -1,19 +1,122 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bilbo Baggins Portfolio</title>
 
-  <title>My Resume</title>
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
 
-  <link rel="stylesheet" href="css/index.css">
+  <body>
+    <div class="container">
+      <header>
+        <!-- Header -->
+        <nav class="navbar">
+          <!-- Nav bar -->
+          <a href="index.html">Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
+      <main>
+        <section class="intro" id="about">
+          <img
+            class="header-portrait"
+            class="img"
+            src="images/pic00.jpg"
+          /><!-- Self Portrait here-->
+          <h1>Bilbo Baggins - Web Dev</h1>
+          <p>Master of everything small</p>
+          <hr />
+          <p>
+              I'm Bilbo a masterful adventurer my home is the Shire where several
+            of my relatives believe I am dead and are trying to claim my home
+            and possessions.</p><br>
+            <p>My experience with evading family, friends and in
+            particular, my ability to maintain and update websites, make me a
+            good match for this position. In my most recent position, I was
+            responsible for maintaining our department web page. This required
+            me to update student and faculty profiles, and post information
+            about upcoming events. In my free time, I learned to code in
+            JavaScript and Swift. I then used my coding skills to revamp our
+            homepage and received praise from our department head and the Dean
+            of Students for my initiative. I would love to bring my coding
+            skills and my general passion for learning new technologies to this
+            position.
+          </p>
+        </section>
 
-<body>
-  <h1>My Resume</h1>
-</body>
+        <section class="skills" id="portfolio">
+          <!-- Skills section -->
+          <div class="skillsContainer">
+            <h2>Skills</h2>
+            <ul>
+              <li>Finding jewelry that may get me killed</li>
+              <li>Rock-throwing and skipping</li>
+              <li>Accidently setting off explosive fireworks</li>
+              <li>Reading maps upside down</li>
+            </ul>
+          </div>
+        </section>
+        <section class="work">
+          <div class="work-box">
+            <h1>Work History</h1>
+            <table>
+              <tr class="table-header">
+                <th class="table-headmixin">Years</th>
+                <th>Company</th>
+                <th>Title</th>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Fireworks</td>
+                <td>Operations Supervisor</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Wandering Adventure</td>
+                <td>Security Specialist</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Healing Hands</td>
+                <td>Consulting people with natural homeopathic remedies</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        <address class="contact" id="contact">
+          <!-- Contact section -->
+          <div>
+            <h3>Contact</h3>
+            187 Smokey Lane<br />
+            Shire, Middle-earth
+            <br />
+            1 (888) 888-8888
+            <br />
+            <a href="mailto:bilbo@theshire.land">bilbo@theshire.land</a><br />
+          </div>
+        </address>
+
+        <footer>
+          <!-- footer -->
+          <ul id="copyright">
+            <li>&copy; Bilbo Baggins. All rights reserved.</li>
+            <li>Design: <a href="http://bilbodesigns">Bilbo Designs</a></li>
+          </ul>
+        </footer>
+      </main>
+    </div>
+  </body>
 </html>
